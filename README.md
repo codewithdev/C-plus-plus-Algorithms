@@ -11,7 +11,7 @@ I am contributing to this repo with C++ Algorithms and cover all Data Structure 
 Fellas,
 
 The Data Structure is the :heart: of Computer Science and Algorithms are the step and procedure to operate on these Data Structure.
-Some Most Comman Data Structure are like Array, Queue, Stack, Tree, Hash, Heap etc. Mastering these Data Structure will help you to solve many problems while you are doing competitive Programming.
+Some Most Comman Data Structure are like Array, Queue, Stack, Tree, Hash, Heap etc. Mastering these Data Structure will help you to solve many problems while you are doing competitive Programming or sitting for the Tech Interview. 
 
 
 However If You think that you have some great Resources and you love to contribute you can directly create a Pull Request. So Every PR must be check and pass test, and successful debug.
