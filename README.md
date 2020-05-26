@@ -27,7 +27,7 @@ However If You think that you have some great Resources and you love to contribu
  * Try to Update the `.gitignore` if you're adding different formats of content.
  * Create a PR :bowtie:
  
-## _Resource_
+## _Resources_
 
 * [Geeks For Geeks](https://www.geeksforgeeks.org)
 
