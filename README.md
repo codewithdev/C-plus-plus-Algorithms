@@ -1,3 +1,4 @@
+![](https://img.shields.io/badge/%F0%9F%92%96-Open%20Source-orange)
 ![](https://img.shields.io/github/issues/codewithdev/Cpp-Nuts-DSA) 
 ![](https://img.shields.io/github/forks/codewithdev/Cpp-Nuts-DSA)
 ![](https://img.shields.io/github/stars/codewithdev/Cpp-Nuts-DSA)
