@@ -1,3 +1,7 @@
+![](https://img.shields.io/github/issues/codewithdev/Cpp-Nuts-DSA) 
+![](https://img.shields.io/github/forks/codewithdev/Cpp-Nuts-DSA)
+![](https://img.shields.io/github/stars/codewithdev/Cpp-Nuts-DSA)
+
 <p align="center">
  <img src=./mobxtree.png>
  </p>
