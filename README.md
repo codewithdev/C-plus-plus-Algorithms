@@ -12,9 +12,6 @@ Repo contains some most common Data Structure and Algorithm in cpp. Which will u
 
 
  Hi :wave:
- 
-I am contributing to this repo with C++ Algorithms and cover all Data Structure with Their Implementation.
-
 Fellas,
 
 The Data Structure is the :heart: of Computer Science and Algorithms are the step and procedure to operate on these Data Structure.
