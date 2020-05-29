@@ -1,3 +1,8 @@
+![](https://img.shields.io/badge/%F0%9F%92%96-Open%20Source-orange)
+![](https://img.shields.io/github/issues/codewithdev/Cpp-Nuts-DSA) 
+![](https://img.shields.io/github/forks/codewithdev/Cpp-Nuts-DSA)
+![](https://img.shields.io/github/stars/codewithdev/Cpp-Nuts-DSA)
+
 <p align="center">
  <img src=./mobxtree.png>
  </p>
@@ -7,9 +12,6 @@ Repo contains some most common Data Structure and Algorithm in cpp. Which will u
 
 
  Hi :wave:
- 
-I am contributing to this repo with C++ Algorithms and cover all Data Structure with Their Implementation.
-
 Fellas,
 
 The Data Structure is the :heart: of Computer Science and Algorithms are the step and procedure to operate on these Data Structure.
