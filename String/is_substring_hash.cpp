@@ -41,7 +41,7 @@ int main()
 {
 	string s1= "iitian";
     string s2= "iiti";
-	if(is_substring(s1,s2)) cout<<"YEs"<<endl;
+	if(is_substring(s1,s2)) cout<<"Yes"<<endl;
 	else cout<<"No"<<endl;
 
 }
