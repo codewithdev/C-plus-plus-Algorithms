@@ -19,7 +19,6 @@ public:
 		}
 	}
 };
-
 template<typename T>
 class Hashtable{
 	Node<T>**table; //pointer to an array of an pointers
