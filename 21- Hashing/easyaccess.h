@@ -109,4 +109,13 @@ public:
 		}
 		return NULL;
 	}
+	T& operator[](string key){
+		T*f= search(key);
+		if(f==NULL){
+			T garbage;
+			insert(key,garbage);
+			f= search(key);
+		}
+		return *f;
+	}
 };
