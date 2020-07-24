@@ -1,6 +1,17 @@
+/*Spoj Problem :
+
+https://www.spoj.com/problems/BAISED/*/
+
+
 #include<iostream>
 #include<cstring>
 using namespace std;
+int abs(int i, int j){
+	if(i-j>0){
+		return i-j;
+	}
+		return j-i;
+	}
 int main()
 {
 	int arr[100000]= {0};
