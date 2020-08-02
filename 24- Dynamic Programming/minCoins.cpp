@@ -14,9 +14,26 @@ int minCoins(int n, int coins[], int T, int dp[]){
   		int subprob= minCoins(n-coins[i],coins,T,dp);
   		ans= min(ans, subprob+1);
   	}
-  	ans= min(ans,ans);
   }
-  return ans;
+  dp[n]= ans;
+  return dp[n];
+}
+
+//min coins Bottom Up Approach
+
+int minCoinsBU(int N, int coins[], int T){
+	int dp[100]= {0};
+    for(int n=1;n<=N;n++){
+	//Iterate over all states
+	dp[i]= INT_MAX;
+	for(int i=0;i<T;i++){
+           if(n-coins[i]>=0){
+           	int subProb= dp[n-coins[i]];
+           	dp[i]= min(ans,subprob+1);
+           }
+	}
+}
+return dp[n];
 }
 
 int main(){
