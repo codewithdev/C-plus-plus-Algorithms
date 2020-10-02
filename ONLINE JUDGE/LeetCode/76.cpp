@@ -1,92 +1,52 @@
-#include <bits/stdc++.h>
-using namespace std;
-#define ll long long int
-const ll mod = 1e9 + 7;
+class Solution {
+public:    
+    string minWindow(string s, string t) {
+        unordered_map<char, int> table;
+        
+        // initialize frequency table for t
+        for(char c : t){
+            table[c]++;
+        }
+        
+        // initialize sliding window
+        int begin = 0, end = 0;
+        int counter = table.size();
+        int len = INT_MAX;
+        
+        string ans = "";
+        
+        // start sliding window
+        while(end < s.length()){
+            char endchar = s[end];
+            
+            // if current char found in table, decrement count
+            if(table.find(endchar) != table.end()){
+                table[endchar]--;
+                if(table[endchar] == 0) counter--;
+            }
+            
+            end++;
+            
 
-void init()
-{
-}
-
-void solve()
-{
-    string s;
-    string t;
-    cin >> s >> t;
-    int flag = 0;
-    int lenT = t.length();
-    int lenC = t.length();
-    int startIndex = 0;
-    int lastIndex = 0;
-    map<char, int> freq;
-    int f = INT_MAX;
-    int ansIndex = 0;
-    map<char, int> isPresent;
-    for (int i = 0; i < lenT; i++)
-    {
-        isPresent[t[i]]++;
-    }
-    if (s.find(t) != string::npos)
-    {
-        cout << t<<endl;
-        flag = 1;
-    }
-   
-    else if (!flag)
-    {
-        for (int i = 0; i < s.length(); i++)
-        {
-            if (isPresent[s[i]])
-            {
-                if (!freq[s[i]])
-                {
-                    --lenC;
-                    freq[s[i]]=i;
-                    if (lenC == lenT - 1)
-                    {
-                        startIndex = i;
-                    }
-                    else if (lenC == 0)
-                    {
-
-                        if (i - startIndex < f)
-                        {
-                            f = i - startIndex;
-                            ansIndex = startIndex;
-                        }
-                        lenC = lenT-1;
-                        startIndex = i;
-                        for (int i = 0; i < lenT; i++)
-                        {
-                            freq[t[i]] = 0;
-                        }
-                        freq[t[i]]=1;
-                    }
+            while(counter == 0){
+                // store new answer if smaller than previously best
+                if(end-begin < len){
+                    len = end - begin;
+                    ans = s.substr(begin, end - begin); 
                 }
+                
+ 
+                int startchar = s[begin];
+                
+                if(table.count(startchar) == 1){
+                   table[startchar]++;
+                   if(table[startchar] > 0) counter++; 
+                }
+                
+                begin++;
             }
         }
-        for (int i = ansIndex; i < ansIndex + f + 1; i++)
-        {
-            cout << s[i];
-            flag = 1;
-        }
-        cout << endl;
+        
+        return ans;
     }
-    else if (!flag)
-    {
-        cout << "" << endl;
-    }
-}
-
-int main()
-{
-    init();
-    int t;
-    cin >> t;
-    while (t)
-    {
-        solve();
-        --t;
-    }
-
-    return 0;
-}
+};
