@@ -1,15 +1,13 @@
-**Added the <Filename>**
-  
+** Added the <Filename>**
 
-**Changes proposed in the PR is**
- -
- -
- -
- -
 
-**I am assuring that the file is not redundant and making the Pull Request**
+** Changes Proposed <Describe> in the PR
+
+** I am assuring that the file is not redundant and making the Pull Request **
  []Yes
  []No
+ 
+ Read {% include Contributing.md %}
 
   
 
