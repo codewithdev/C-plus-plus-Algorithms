@@ -1,4 +1,4 @@
-#Welcome to Hacktoberfest!
+# Welcome to Hacktoberfest!
 
 Please Read the Contribution Guidelines before making Pull Request
 
@@ -15,14 +15,10 @@ anywhere in thoughtbot's project codebases,
 issue trackers, chatrooms, and mailing lists.
 
 ## Contributing Code
+  - Fork the repo.
 
-$(INSTALL_DEPENDENCIES)
+  - Make sure the tests pass:
 
-Fork the repo.
-
-Make sure the tests pass:
-
-$(TEST_RUNNER)
 
 Make your change, with new passing tests. Follow the [style guide][style].
 
