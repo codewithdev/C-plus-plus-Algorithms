@@ -1,0 +1,33 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int T;
+  cin>>T;
+  while(T--){
+        int n,r;
+        cin>>n;
+        cin>>r;
+        int arr[n];
+        
+        for(int i=0;i<n;i++){
+            cin>>arr[i];
+        }
+        
+        int arr1[n];
+        for(int i=0, k=r;i<n-r+1;i++,k++){
+            arr1[i]=arr[k];
+        }
+        
+        for(int i=n-r,j=0;j<r;i++,j++){
+            arr1[i]=arr[j];
+        }
+        
+        for(int i=0;i<n;i++){
+            cout<<arr1[i]<<" ";
+        }
+        cout<<endl;
+  }
+	return 0;
+
+}
