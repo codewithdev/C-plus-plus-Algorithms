@@ -3,6 +3,7 @@
 ![](https://img.shields.io/github/forks/codewithdev/Cpp-Nuts-DSA)
 ![](https://img.shields.io/github/stars/codewithdev/Cpp-Nuts-DSA)
 [![Build Status](https://travis-ci.com/codewithdev/experts-training-codewithdev.svg?token=Hsq8s2GFy5xABB5qeM17&branch=master)](https://travis-ci.com/codewithdev/experts-training-codewithdev)
+[![Open Source Helpers](https://www.codetriage.com/codewithdev/c-plus-plus-algorithms/badges/users.svg)](https://www.codetriage.com/codewithdev/c-plus-plus-algorithms)
 
 <p align="center">
  <img src=./mobxtree.png>
