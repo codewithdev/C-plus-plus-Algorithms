@@ -17,7 +17,7 @@ issue trackers, chatrooms, and mailing lists.
 # Pull Request Instructions
  - Instead of Creating a new Branch. Fork the Repo and Update Your contribution to the related files or Repo.
  - Try to add the Algorithm or Program in files respectively.
- - You can add new content only Related to C++ Programming
+ - You can add new content only **Related to C++ Programming**
  - Create a PR with subjective Title. This will help me to organize the content in better way.
  - Try to Update the .gitignore if you're adding different formats of content.
  - Create a PR :bowtie:
