@@ -12,7 +12,6 @@ public:
             }
             Mp[s[i]] = i;
             len = max(len, i-start);
-            cout<<start<<' '<<Mp[s[i]]<<' '<<len<<endl;
         }
         return len;
     }
