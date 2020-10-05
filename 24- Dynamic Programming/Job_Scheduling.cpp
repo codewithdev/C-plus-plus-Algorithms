@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long int
-#define push_back pb
-#define pair<int,int> pp
+#define pb push_back
+#define pp pair <int,int>
 bool sortbyfinish(pp p1,pp p2)
 {
 	return p1.second<p2.second;
@@ -39,8 +39,8 @@ int main()
     			ans.push_back(activities[i].first);
     		}
     	}
-        for(int i=0;i<ans.size();i++)
-        	cout<<ans[i]<<endl;
+        cout<<"No.of Jobs that can be scheduled : "<<endl;
+        cout<<ans.size()<<endl;
     }
 return 0;
 }

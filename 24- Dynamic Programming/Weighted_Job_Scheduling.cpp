@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long int
-#define push_back pb
-#define pair<int,int> pp
+#define pb push_back 
+#define pp pair<int,int>
 struct interval
 {
     int start;
@@ -13,7 +13,7 @@ bool sortbyfinish(interval p1,interval p2)
 {
 	return p1.finish<p2.finish;
 }
-int nextcompatible(vector<interval> &arr;,int i)
+int nextcompatible(vector<interval> &arr,int i)
 {
     for (int j=i-1; j>=0; j--) 
     { 
@@ -56,6 +56,7 @@ int main()
                 include+= dp[findnext];
             dp[i]=max(include,exclude);
         }
+        cout<<"Maximum profit that can be obtained : "<<endl;
         cout<<dp[n-1]<<endl;
     }
         return 0;
