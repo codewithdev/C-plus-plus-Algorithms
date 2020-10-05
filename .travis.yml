@@ -10,9 +10,6 @@ jobs:
 
 git:
   submodules: false
-  
-  name: C/C++ CI
-
 on:
   push:
     branches: [ master ]
