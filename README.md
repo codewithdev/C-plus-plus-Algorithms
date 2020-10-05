@@ -9,7 +9,7 @@
  <img src=./mobxtree.png>
  </p>
 
-# Cpp DSA
+# C++ DSA 
 Repo contains some most common Data Structure and Algorithm in cpp. Which will useful in future application of Competitive Programming as well Interview Preparation.
 
 
