@@ -1,8 +1,35 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define sz(a)               ll((a).size())
+#define ll                  long long
+#define int                 ll
+#define pb                  push_back
+#define ld                  long double
+#define mp                  make_pair
+#define vi                  vector<ll>
+#define vii                  vector<pi>
+#define endl                "\n"
+#define ff                  first
+#define ss                  second
+#define all(c)              (c).begin(),(c).end()
+#define allr(c)             (c).rbegin(),(c).rend()
+#define input(a,n)          for(long long i=0;i<n;i++)cin>>a[i]
+#define output(a,n)         for(long long i=0;i<n;i++)cout<<a[i]<<" "
+#define inputt(a,n,m)       for(ll i=0;i<n;i++)for(ll j=0;j<m;j++)cin>>a[i][j]
+#define outputt(a,n,m)      for(ll i=0;i<n;i++){for(ll j=0;j<m;j++)cout<<a[i][j]<<" ";cout<<endl;}
+#define reset(a,n)          memset(a,n,sizeof(a))   // n can only be 0 or -1
+#define pi                  pair<ll,ll>
+#define inf                 LLONG_MAX
+#define N                   1000000
+#define minp                vector<ll>, greater<ll>
+#define M                   1000000007
+#define MM                  1000000009
+#define pie                 3.1415926535897932384626433832795
 struct mat
 {
     ll a,b,c,d;
 };
-mat po(ll n)
+mat po(ll n)        // matrix exponentiation for calculating fibonnaci number in log(n) time.
 {
     if(n==1)
     {
@@ -50,15 +77,12 @@ mat po(ll n)
         return b;
     }
 }
-int main()
+int32_t main()
 {
-    she_taught_me_to_code
-
-    // freopen("input.txt","r",stdin);
-    // freopen("output.txt","w",stdout);
 
     ll n;
     cin>>n;
-    mat re=po(n);
-    cout<<re.c<<" ";
+    mat re=po(n);       // calling the function
+    cout<<re.c<<endl;
+    return 0;
 }
