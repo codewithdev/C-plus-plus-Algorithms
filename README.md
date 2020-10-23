@@ -20,8 +20,7 @@ The Data Structure is the :heart: of Computer Science and Algorithms are the ste
 Some Most Comman Data Structure are like Array, Queue, Stack, Tree, Hash, Heap etc. Mastering these Data Structure will help you to solve many problems while you are doing competitive Programming or sitting for the Tech Interview. 
 
 
-However If You think that you have some great Resources and you love to contribute you can directly create a Pull Request [Check PR Instructions)](https://github.com/codewithdev/C-plus-plus-Algorithms/blob/master/CONTRIBUTING.md). So Every PR must be check and pass test, and successful debug.
- 
+However If You think that you have some great Resources and you love to contribute you can directly create a Pull Request [Check PR Instructions)](https://github.com/codewithdev/C-plus-plus-Algorithms/blob/master/CONTRIBUTING.md).
 
  
  
