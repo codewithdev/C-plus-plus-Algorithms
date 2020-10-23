@@ -1,0 +1,88 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define sz(a)               ll((a).size())
+#define ll                  long long
+#define int                 ll
+#define pb                  push_back
+#define ld                  long double
+#define mp                  make_pair
+#define vi                  vector<ll>
+#define vii                  vector<pi>
+#define endl                "\n"
+#define ff                  first
+#define ss                  second
+#define all(c)              (c).begin(),(c).end()
+#define allr(c)             (c).rbegin(),(c).rend()
+#define input(a,n)          for(long long i=0;i<n;i++)cin>>a[i]
+#define output(a,n)         for(long long i=0;i<n;i++)cout<<a[i]<<" "
+#define inputt(a,n,m)       for(ll i=0;i<n;i++)for(ll j=0;j<m;j++)cin>>a[i][j]
+#define outputt(a,n,m)      for(ll i=0;i<n;i++){for(ll j=0;j<m;j++)cout<<a[i][j]<<" ";cout<<endl;}
+#define reset(a,n)          memset(a,n,sizeof(a))   // n can only be 0 or -1
+#define pi                  pair<ll,ll>
+#define inf                 LLONG_MAX
+#define N                   1000000
+#define minp                vector<ll>, greater<ll>
+#define M                   1000000007
+#define MM                  1000000009
+#define pie                 3.1415926535897932384626433832795
+struct mat
+{
+    ll a,b,c,d;
+};
+mat po(ll n)        // matrix exponentiation for calculating fibonnaci number in log(n) time.
+{
+    if(n==1)
+    {
+        mat in;
+        in.a=1;
+        in.b=1;
+        in.c=1;
+        in.d=0;
+        return in;
+    }
+    if(n==2)
+    {
+        mat in;
+        in.a=2;
+        in.b=1;
+        in.c=1;
+        in.d=1;
+        return in;
+    }
+    else
+    {
+        mat a=po(n/2);
+        mat b;
+        b.a=(a.a)*(a.a)+(a.b)*(a.c);
+        b.b=(a.a)*(a.b)+(a.b)*(a.d);
+        b.c=(a.a)*(a.c)+(a.c)*(a.d);
+        b.d=(a.b)*(a.c)+(a.d)*(a.d);
+        b.a%=M;
+        b.b%=M;
+        b.c%=M;
+        b.d%=M;
+        if(n%2==1)
+        {
+            mat c;
+            c.a=b.a+b.b;
+            c.b=b.a;
+            c.c=b.c+b.d;
+            c.d=b.c;
+            c.a%=M;
+            c.b%=M;
+            c.c%=M;
+            c.d%=M;
+            return c;
+        }
+        return b;
+    }
+}
+int32_t main()
+{
+
+    ll n;
+    cin>>n;
+    mat re=po(n);       // calling the function
+    cout<<re.c<<endl;
+    return 0;
+}
