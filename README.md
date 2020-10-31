@@ -25,4 +25,7 @@ However If You think that you have some great Resources and you love to contribu
  
  
  
- # Read Contributing.md for More Info
+ # HACKTOBERFEST STATS
+
+***_Congratulations!🎉 You Made it! _***
+I would like to thank all the Contributor who have participated in Hacktoberfest By DigitalOcean and Successfully contributed to **C-plus-plus-Alogrithms** Repository.Whether it was your first time in the Open Source or experience, Always remember _Every Expert was once a Beginner_.
