@@ -10,7 +10,7 @@
  </p>
 
 # C++ DSA 
-Repo contains some most common Data Structure and Algorithm in cpp. Which will useful in future application of Competitive Programming as well Interview Preparation.
+Repo contains some most common Data Structure and Algorithm in C++ that will helpful to grasp the concept of various algorithm, working and also will help you in future application of Competitive Programming as well Interview Preparation.
 
 
  Hi :wave:
@@ -20,9 +20,7 @@ The Data Structure is the :heart: of Computer Science and Algorithms are the ste
 Some Most Comman Data Structure are like Array, Queue, Stack, Tree, Hash, Heap etc. Mastering these Data Structure will help you to solve many problems while you are doing competitive Programming or sitting for the Tech Interview. 
 
 
-However If You think that you have some great Resources and you love to contribute you can directly create a Pull Request [Check PR Instructions)](https://github.com/codewithdev/C-plus-plus-Algorithms/blob/master/CONTRIBUTING.md).
-
- 
+However If You think that you have some great resources and you'd love to contribute in the repo then create a Pull Request [Check PR Instructions)](https://github.com/codewithdev/C-plus-plus-Algorithms/blob/master/CONTRIBUTING.md) by forking this repo [Fork Here](https://github.com/codewithdev/C-plus-plus-Algorithms).
  
  
  # HACKTOBERFEST STATS
