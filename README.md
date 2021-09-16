@@ -23,7 +23,7 @@ Some Most Comman Data Structure are like Array, Queue, Stack, Tree, Hash, Heap e
 However If You think that you have some great resources and you'd love to contribute in the repo then create a Pull Request [Check PR Instructions)](https://github.com/codewithdev/C-plus-plus-Algorithms/blob/master/CONTRIBUTING.md) by forking this repo [Fork Here](https://github.com/codewithdev/C-plus-plus-Algorithms).
  
  
- # HACKTOBERFEST STATS
+ # Our Awesome Contributors
+ 
+ [![Contributors](https://contrib.rocks/image?repo=codewithdev/C-plus-plus-Algorithms)](https://github.com/codewithdev/C-plus-plus-Algorithms/graphs/contributors)
 
-***_Congratulations!🎉 You Made it!_***
-Thanks to all the Contributor who had participated in Hacktoberfest this year By DigitalOcean and Successfully contributed to **C-plus-plus-Alogrithms** Repository. Whether it was first time in the Open Source or having experience, Always remember _Every Expert was once a Beginner_.
