@@ -27,3 +27,11 @@ However If You think that you have some great resources and you'd love to contri
  
  [![Contributors](https://contrib.rocks/image?repo=codewithdev/C-plus-plus-Algorithms)](https://github.com/codewithdev/C-plus-plus-Algorithms/graphs/contributors)
 
+
+# Copyright
+
+Source code of this project is distributed under the Apache license version 2.0
+(see the LICENSE file in the project root).
+
+By submitting a pull request for this project, you agree to license your
+contribution under the Apache license 2.0 (source code) or CC BY 4.0
