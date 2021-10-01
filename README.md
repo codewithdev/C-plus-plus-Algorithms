@@ -50,6 +50,7 @@ Congrats, you're officially a Contributor!
  
  ## 🎉Contributors
  
+Big shoutout to all the contributors who have put their efforts to make it big!!
  [![Contributors](https://contrib.rocks/image?repo=codewithdev/C-plus-plus-Algorithms)](https://github.com/codewithdev/C-plus-plus-Algorithms/graphs/contributors)
 
 
