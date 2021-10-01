@@ -1,11 +1,17 @@
-**Added the <Filename> Filename as**
+<!--
+Thank you for contributing to this project! You must fill out the information below before we can review this pull request. By explaining why you're making a change (or linking to a pull request) and what changes you've made.-->
+
+### What's being changed:
+<!-- Describe what content you added in the library or brief about your contribution -->
 
 
-**Changes Proposed <Describe> in the PR. Describe**
+### Checkoff the following:
 
-
-**I am assuring that the file is not redundant and making the Pull Request**
-- [ ] Yes
+- [ ]  Read [Contribution.md](https://github.com/codewithdev/C-plus-plus-Algorithms/blob/master/CONTRIBUTING.md)
+- [ ]  Created a new branch before committing.
+- [ ]  My File doesn't contain any duplicacy or misinformation (isn't available in the library).
+- [ ]  Added to the right category.
+- [ ]  Described what's being changed.
  
  Read {% include Contributing.md %}
 
