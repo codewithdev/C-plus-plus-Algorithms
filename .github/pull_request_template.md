@@ -12,7 +12,10 @@ Thank you for contributing to this project! You must fill out the information be
 - [ ]  My File doesn't contain any duplicacy or misinformation (isn't available in the library).
 - [ ]  Added to the right category.
 - [ ]  Described what's being changed.
- 
+
+<!--
+Thanks again!
+-->
  Read {% include Contributing.md %}
 
   
