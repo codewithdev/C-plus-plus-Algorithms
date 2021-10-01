@@ -17,7 +17,6 @@ Thank you for contributing to this project! You must fill out the information be
 <!--
 Thanks again!
 -->
- Read {% include Contributing.md %}
 
   
 
