@@ -11,6 +11,7 @@ Thank you for contributing to this project! You must fill out the information be
 - [ ]  Created a new branch before committing.
 - [ ]  My File doesn't contain any duplicacy or misinformation (isn't available in the library).
 - [ ]  Added to the right category.
+- [ ]  Added "add code" label.
 - [ ]  Described what's being changed.
 
 <!--
