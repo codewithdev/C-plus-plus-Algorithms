@@ -13,7 +13,7 @@
 using namespace std;
 
 /**
- * max_suarray_sum function calculates the maximum contiguous sum for the given array.
+ * max_subarray_sum function calculates the maximum contiguous sum for the given array.
  */
 int max_subarray_sum(int arr[], int length)
 {
@@ -58,7 +58,6 @@ int main()
 
     for (int i = 0; i < n; i++) //taking elements of the array
     {
-
         {
             cin >> arr[i];
         }
