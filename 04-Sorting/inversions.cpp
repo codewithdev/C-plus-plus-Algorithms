@@ -1,3 +1,8 @@
+/*
+Count Inversions in an array using both the O(n^2) solution and using the optimised O(nlogn) solution. 
+Inversion Count for an array indicates – how far (or close) the array is from being sorted. If the array is already sorted, then the inversion count is 0, but if the array is sorted in the reverse order, the inversion count is the maximum. 
+Formally speaking, two elements a[i] and a[j] form an inversion if a[i] > a[j] and i < j 
+*/
 #include "bits/stdc++.h"
 using namespace std;
 void printArr(int arr[], int n,string s="\n"){
@@ -14,6 +19,7 @@ void printArr(int arr[], int n,string s="\n"){
 	}
 	}
 int merge(int left[], int right[], int arr[], int leftLength, int rightLength){
+	//the helper function which helps to merge two arrays, left and right
 	int i=0,j=0,k = 0;
 	int inversions = 0 ;
 	while(i< leftLength && j<rightLength){
@@ -44,6 +50,7 @@ int merge(int left[], int right[], int arr[], int leftLength, int rightLength){
 	return inversions;
 }
 int mergeSort(int arr[], int n){
+	//the main merge sort function takes in array and the number of elements in the array
 	int mid = n/2;
 	if(n<2){
 		return 0;
