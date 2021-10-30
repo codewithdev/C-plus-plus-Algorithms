@@ -15,7 +15,7 @@ public:
             return head;
         }
       //Check and replace the node to its next node
-        // Create two dummy nodes initially pointing to head of the node
+      // Create two dummy nodes initially pointing to head of the node
         ListNode*a= head;
         ListNode*b= head;
         b= a->next;
