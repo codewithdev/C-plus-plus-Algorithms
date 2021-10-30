@@ -15,13 +15,13 @@ public:
             return head;
         }
       //Check and replace the node to its next node
+        // Create two dummy nodes initially pointing to head of the node
         ListNode*a= head;
         ListNode*b= head;
         b= a->next;
         a->next= b->next;
         b->next= a;
         head= b;
-      //Swap the node
         a->next= swapPairs(a->next);
         return head;
         
