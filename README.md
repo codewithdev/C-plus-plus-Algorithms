@@ -48,7 +48,7 @@ Once you create your PR, it will be reviewed and hopefully merged quickly!
 Congrats, you're officially a Contributor!
 
  
- ## 🎉Contributors
+ ## 🎉Contributors of 2021
  
 Big shoutout to all the contributors who have put their efforts to make it big!! 🥇
 
