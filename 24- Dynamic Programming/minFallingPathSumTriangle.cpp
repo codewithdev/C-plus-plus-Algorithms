@@ -2,9 +2,23 @@
 // adjacent number of the row below.More formally, if you are on index i on the current row, you may move to either
 // index i or index i + 1 on the next row.
 
+// Sample Inputs
+// 4
+// 2
+// 3 4
+// 6 5 7
+// 4 1 8 3
+// 1
+// -10
+
+// Corresponding Outputs
+// 11
+// -10
+
 #include <bits/stdc++.h>
 using namespace std;
 
+// recursive function
 int minimumTotal(vector<vector<int>> &triangle)
 {
     int n = triangle.size();
@@ -54,24 +68,3 @@ int main()
     }
     cout << minimumTotal(triangle);
 }
-
-// Sample Inputs
-
-// Sample Inputs
-
-// Sample Inputs
-
-// 4
-// 2
-// 3 4
-// 6 5 7
-// 4 1 8 3
-
-// 1
-// -10
-
-// Corresponding Outputs
-
-// 11
-
-// -10
