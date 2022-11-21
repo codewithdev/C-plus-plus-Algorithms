@@ -31,6 +31,8 @@ public:
     
 };
 
+// for inserting 
+
 void Trie::insert(string str)
 {
     TrieNode *current = root;
@@ -51,7 +53,7 @@ void Trie::insert(string str)
 
     current->isEndOfWord = true;
 }
-
+// for exact search
 TrieNode* Trie::exact_search(string str)
 {
     TrieNode *current = root;
@@ -95,6 +97,8 @@ void get_words_dfs(TrieNode *current, string pre, vector<string> &results)
         get_words_dfs(i.second, (pre + i.first), results);
     }
 }
+
+// for prefix search
 
 vector<string> Trie::pre_search(string str)
 {
