@@ -1,3 +1,6 @@
+// Floyd-Warshall is an all-pairs shortest path algorithm. It computes the shortest paths between all pairs of vertices in a weighted graph, including negative weight edges.
+
+
 #include <iostream>
 #include <vector>
 #include <climits>

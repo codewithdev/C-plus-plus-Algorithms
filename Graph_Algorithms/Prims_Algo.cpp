@@ -1,3 +1,6 @@
+
+//Prim's algorithm is another approach to find the Minimum Spanning Tree (MST). It starts with an arbitrary vertex and grows the MST one vertex at a time by selecting the edge with the minimum weight.
+
 #include <iostream>
 #include <vector>
 #include <queue>

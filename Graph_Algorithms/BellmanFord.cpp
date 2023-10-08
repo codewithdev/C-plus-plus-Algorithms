@@ -1,3 +1,6 @@
+// This algorithm is used to find the shortest path from a single source vertex to all other vertices, even in the presence of negative weight edges. It can detect negative weight cycles.
+
+
 #include <iostream>
 #include <vector>
 #include <climits>

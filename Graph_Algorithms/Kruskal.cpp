@@ -1,3 +1,6 @@
+
+//Kruskal's algorithm is used to find the Minimum Spanning Tree (MST) of a connected, undirected graph. It does this by selecting edges with the smallest weight while avoiding cycles.
+
 #include <iostream>
 #include <vector>
 #include <algorithm>

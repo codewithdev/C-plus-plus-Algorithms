@@ -1,3 +1,5 @@
+//DSU is a data structure used to manage a partition of a set into disjoint subsets. It supports operations like union (merging two subsets) and find (finding the representative element of a subset). 
+
 #include <iostream>
 #include <vector>
 

@@ -1,3 +1,7 @@
+
+// Dijkstra's algorithm is a widely used algorithm for finding the shortest path from a single source vertex to all other vertices in a weighted graph. It's particularly useful for graphs with non-negative edge weights. 
+
+
 #include <iostream>
 #include <vector>
 #include <queue>
